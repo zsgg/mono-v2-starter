@@ -1,4 +1,4 @@
-#! ../../node_modules/.bin/ts-node/esm
+#! ../../node_modules/.bin/ts-node
 
 // const { readFileSync } = require('fs');
 // const { PackageJson } = require('type-fest');
@@ -13,14 +13,12 @@
 //     console.log(`< raw >`, raw);
 // })();
 
-// @ts-ignore
-import { $ } from 'zx';
-// @ts-ignore
+import * as path from 'path';
 import { readFileSync } from 'fs';
 // @ts-ignore
 import { PackageJson } from 'type-fest';
 // @ts-ignore
-import * as path from 'path';
+import { $ } from 'zx';
 
 console.log(`< hello >`);
 //
