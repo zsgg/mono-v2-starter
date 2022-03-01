@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "../@out",
+    "target": "ESNext",
+    "module": "ESNext"
+  },
+  "include": ["index.ts", "defined.d.ts"],
+  "exclude": ["moduleA.ts"]
+}

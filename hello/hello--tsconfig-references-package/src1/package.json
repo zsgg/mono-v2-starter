@@ -1,0 +1,11 @@
+{
+  "name": "hello--tsconfig-references-src1",
+  "main": "./src1Source.ts",
+  "scripts": {
+    "build:src1": "yarn tsc --build .",
+    "test:unit": "echo \"hello\""
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

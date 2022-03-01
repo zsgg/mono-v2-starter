@@ -1,0 +1,10 @@
+{
+  "name": "recipe--apps--backend-with-nestjs-starter",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "nestjs": "^0.0.1"
+  },
+  "scripts": {
+    "test:unit": "echo \"hello\""
+  }
+}

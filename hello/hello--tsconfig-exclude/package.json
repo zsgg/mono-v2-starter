@@ -1,0 +1,10 @@
+{
+  "name": "hello--tsconfig-exclude",
+  "scripts": {
+    "tsc:build": "tsc --build src",
+    "tsc:compile": "yarn tsc --project src"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}

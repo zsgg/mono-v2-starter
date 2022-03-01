@@ -1,0 +1,9 @@
+{
+  "extends": "../../../../__config__/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "outDir": "@types",
+    "rootDir": "./src",
+  }
+}

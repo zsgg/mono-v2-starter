@@ -1,0 +1,12 @@
+{
+  "name": "hello--eslint-plugin-ts--playground",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-plugin-hello3": "workspace:*"
+  },
+  "scripts": {
+    "lint:es": "yarn eslint ./src/**/*.ts",
+    "test:unit": "echo \"hello\""
+  }
+}

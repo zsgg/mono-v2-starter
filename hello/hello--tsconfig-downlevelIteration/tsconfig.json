@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // Project Options
+    "allowJs": false,
+    "declaration": false,
+    "downlevelIteration": true,
+    "isolatedModules": true,
+    "importHelpers": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "playground--ts",
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "solution:0": "yarn ts-node ./src/solution.0.ts",
+    "solution:1": "yarn ts-node ./src/solution.1.ts",
+    "solution:2": "yarn ts-node ./src/solution.2.ts"
+  }
+}

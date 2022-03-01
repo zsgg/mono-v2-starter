@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#yarn run test:unit:hello
+#yarn run test:unit:recipes
+yarn lint-staged

@@ -1,0 +1,10 @@
+{
+  "name": "hello--babel-config-file-case1-sub1",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5"
+  },
+  "scripts": {
+    "test:unit": "echo \"hello test:unit\""
+  }
+}

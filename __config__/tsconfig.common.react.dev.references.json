@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.common.react.dev.json",
+  // need: extends 하는 곳에서 "outDir" 설정 필요
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "declaration": true,
+    "sourceMap": true,
+  }
+}

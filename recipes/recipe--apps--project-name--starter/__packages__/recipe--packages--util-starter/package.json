@@ -1,0 +1,7 @@
+{
+  "name": "recipe--packages--util-starter",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test:unit": "echo \"hello\""
+  }
+}

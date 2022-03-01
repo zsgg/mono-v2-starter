@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": "../",
+    "esModuleInterop": true,
+    "paths": {
+      "@lib/*": [ "./lib/*" ]
+    }
+  },
+  "references": [
+    {
+      "path": "../lib"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-hello-1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:a": "tsup",
+    "build:b": "tsup src/index.ts --no-splitting --minify",
+    "test:unit": "echo \"hello test:unit\""
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.0",
+    "@types/estree": "^0.0.50",
+    "@types/node": "^16.4.3",
+    "tsup": "^4.12.5",
+    "typescript": "^4.3.5"
+  }
+}

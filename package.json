@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/**/*",
+    "hello/**/*",
+    "packages/**/*",
+    "playground/**/*",
+    "recipes/**/*"
+  ],
+  "scripts": {
+    "_:package:update": "yarn upgrade-interactive",
+    "lint:es": "yarn eslint --quiet --fix . --ext .js --ext .ts --ext .tsx --ext .json",
+    "test:unit:hello": "yarn workspaces foreach --include \"hello--*\" -ptv run test:unit",
+    "test:unit:recipes": "yarn workspaces foreach --include \"recipe--*\" -ptv  run test:unit",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jest-dom": "^3.9.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-unused-imports": "^1.1.2",
+    "espree": "^8.0.0",
+    "esutils": "^2.0.3",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.1",
+    "natural-compare": "^1.4.0",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "packageManager": "yarn@3.1.1"
+}

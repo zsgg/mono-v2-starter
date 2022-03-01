@@ -1,0 +1,13 @@
+{
+  "extends": "../../../__config__/tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "target": "ESNext",
+    "module": "ESNext",
+  },
+  "references": [{
+    "path": "../__packages__/hello--webpack-side-effects-false-child"
+  },{
+    "path": "../__packages__/hello--webpack-side-effects-true-child"
+  }]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hello--webpack-side-effects-false-child",
+  "sideEffects": false,
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "yarn tsc -b",
+    "test:unit": "echo \"hello\""
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

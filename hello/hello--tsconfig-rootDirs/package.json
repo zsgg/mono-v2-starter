@@ -1,0 +1,10 @@
+{
+  "name": "hello--tsconfig-rootDirs",
+  "scripts": {
+    "build": "yarn tsc -p . ",
+    "test:unit": "echo \"hello test:unit\""
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // # Project Options
+    "allowJs": false,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "isolatedModules": true,
+    "outDir": "../dist",
+    "moduleResolution": "Node",
+    "composite": true
+  }
+}

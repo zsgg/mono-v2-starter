@@ -1,0 +1,14 @@
+{
+  "name": "hello--tsconfig-downlevelIteration",
+  "scripts": {
+    "tsc:build": "yarn tsc -p .",
+    "tsc:build:withHelper": "yarn tsc --importHelpers src/source.ts",
+    "test:unit": "echo \"hello\""
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}

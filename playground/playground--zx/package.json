@@ -1,0 +1,14 @@
+{
+  "name": "playground--zx",
+  "packageManager": "yarn@3.1.1",
+  "main": "src/index.ts",
+  "scripts": {
+    "r1": "yarn ts-node src/shellTs.ts",
+    "r2": "yarn node src/shellJs.mjs"
+  },
+  "devDependencies": {
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "zx": "4.3.0"
+  }
+}
