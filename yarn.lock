@@ -2708,6 +2708,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:16.11.26, @types/node@npm:^16.6":
+  version: 16.11.26
+  resolution: "@types/node@npm:16.11.26"
+  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:17.0.18":
   version: 17.0.18
   resolution: "@types/node@npm:17.0.18"
@@ -2719,13 +2726,6 @@ __metadata:
   version: 16.4.3
   resolution: "@types/node@npm:16.4.3"
   checksum: 6b5fa8b524a9c770dcb96a24d862f240ce8c0072d7360fd088bfb9c5265b48bd1af58a3dd7f59e266b3214684c251e56bea2b2b0702b9901e57804221b6e07f2
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^16.6":
-  version: 16.11.26
-  resolution: "@types/node@npm:16.11.26"
-  checksum: 57757caaba3f0d95de82198cb276a1002c49b710108c932a1d02d7c91ff2fa57cfe2dd19fde60853b6dd90b0964b3cf35557981d2628e20aed6a909057aedfe6
   languageName: node
   linkType: hard
 
@@ -11326,6 +11326,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "playground--zx@workspace:playground/playground--zx"
   dependencies:
+    "@types/node": 16.11.26
     ts-node: ^10.5.0
     type-fest: ^2.12.0
     typescript: ^4.5.5

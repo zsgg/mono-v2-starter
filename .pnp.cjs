@@ -15154,6 +15154,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./playground/playground--zx/",
           "packageDependencies": [
             ["playground--zx", "workspace:playground/playground--zx"],
+            ["@types/node", "npm:16.11.26"],
             ["ts-node", "virtual:2d1a42fceef4a4c287efb22b3e3fa7820d98ae436dedbde00d3d45007533ff6c596d83766628e8d2a53afac57417af59ba6bccc11d70cab4325105bfa910f42e#npm:10.5.0"],
             ["type-fest", "npm:2.12.0"],
             ["typescript", "patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=493e53"],
@@ -18382,7 +18383,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],
             ["@tsconfig/node14", "npm:1.0.1"],
             ["@tsconfig/node16", "npm:1.0.2"],
-            ["@types/node", null],
+            ["@types/node", "npm:16.11.26"],
             ["@types/swc__core", null],
             ["@types/swc__wasm", null],
             ["@types/typescript", null],

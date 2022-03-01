@@ -7,6 +7,7 @@
     "r2": "yarn node src/shellJs.mjs"
   },
   "devDependencies": {
+    "@types/node": "16.11.26",
     "ts-node": "^10.5.0",
     "type-fest": "^2.12.0",
     "typescript": "^4.5.5",
