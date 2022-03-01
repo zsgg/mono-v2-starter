@@ -11327,6 +11327,7 @@ fsevents@^1.2.7:
   resolution: "playground--zx@workspace:playground/playground--zx"
   dependencies:
     ts-node: ^10.5.0
+    type-fest: ^2.12.0
     typescript: ^4.5.5
     zx: 4.3.0
   languageName: unknown
@@ -14120,6 +14121,13 @@ resolve@^2.0.0-next.3:
   version: 0.7.1
   resolution: "type-fest@npm:0.7.1"
   checksum: 5b1b113529d59949d97b76977d545989ddc11b81bb0c766b6d2ccc65473cb4b4a5c7d24f5be2c2bb2de302a5d7a13c1732ea1d34c8c59b7e0ec1f890cf7fc424
+  languageName: node
+  linkType: hard
+
+"type-fest@npm:^2.12.0":
+  version: 2.12.0
+  resolution: "type-fest@npm:2.12.0"
+  checksum: 3ebe6529db84c7ceb579a0c693b92c4bf83fa5a78b5d6a1d3c2138696ad69e0a1ebc7e1b707ee0a2a6bd5aef71bf2bf4fc6fc81a6c752330e10faf0deea80f05
   languageName: node
   linkType: hard
 

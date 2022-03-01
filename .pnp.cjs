@@ -15155,6 +15155,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["playground--zx", "workspace:playground/playground--zx"],
             ["ts-node", "virtual:2d1a42fceef4a4c287efb22b3e3fa7820d98ae436dedbde00d3d45007533ff6c596d83766628e8d2a53afac57417af59ba6bccc11d70cab4325105bfa910f42e#npm:10.5.0"],
+            ["type-fest", "npm:2.12.0"],
             ["typescript", "patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=493e53"],
             ["zx", "npm:4.3.0"]
           ],
@@ -18624,6 +18625,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/type-fest-npm-0.7.1-7b37912923-5b1b113529.zip/node_modules/type-fest/",
           "packageDependencies": [
             ["type-fest", "npm:0.7.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.12.0", {
+          "packageLocation": "./.yarn/cache/type-fest-npm-2.12.0-6c6df3f1e5-3ebe6529db.zip/node_modules/type-fest/",
+          "packageDependencies": [
+            ["type-fest", "npm:2.12.0"]
           ],
           "linkType": "HARD",
         }]

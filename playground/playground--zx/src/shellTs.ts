@@ -7,5 +7,6 @@ console.log(`< hello >`);
 //
 //
 (async function () {
-    await $`ls`;
+    const a = await $`ls`;
+    console.log(`< a >`, a.stdout);
 })();
